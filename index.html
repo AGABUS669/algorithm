@@ -1,0 +1,18 @@
+Input: sentence
+
+Initialize length_counter = 0
+Initialize word_counter = 1       // Start at 1 because words are separated by spaces; at least one word
+Initialize vowel_counter = 0
+
+For each character c in sentence:
+    Increment length_counter by 1
+
+    If c is a vowel (a, e, i, o, u or A, E, I, O, U):
+        Increment vowel_counter by 1
+
+    If c is a space:
+        Increment word_counter by 1
+
+Output length_counter
+Output word_counter
+Output vowel_counter
